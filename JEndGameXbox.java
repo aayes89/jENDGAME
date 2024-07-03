@@ -1,20 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package jendgamexbox;
 
 import java.util.Arrays;
 
 /**
  *
- * @author localadmin
+ * @author Slam
  */
 public class JEndGameXbox {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Exploit exp = new Exploit();
         // Ejemplo de uso
@@ -37,7 +30,9 @@ public class JEndGameXbox {
             System.out.println(new String(exp.sutil.unswizzle32(data, width, height)));
             exp.makeHelper(true, false);
         } catch (Exception e) {
-            System.out.println(": " + e.getMessage());
+            // Lo que se espera que ocurra en la consola para lograr 
+            // la ejecución arbitraria 
+            System.out.println("Exception: " + e.getMessage());
         }
 
     }
