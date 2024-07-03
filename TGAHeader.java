@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package jendgamexbox;
 
 import java.nio.ByteBuffer;
@@ -9,7 +6,7 @@ import java.nio.ByteOrder;
 
 /**
  *
- * @author localadmin
+ * @author Slam
  */
 public class TGAHeader {
 
